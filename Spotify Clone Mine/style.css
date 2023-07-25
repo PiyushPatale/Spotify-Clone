@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: antiquewhite;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    /* min-height: 10vh; */
+    height: 82vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    /* position: relative; */
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(ArijitSingh.jpg);
+    background-size: 100% 100%;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding: 20px;
+}
+
+.icons i:hover {
+    background-color: rgb(1, 9, 12); 
+    border-color:antiquewhite;
+    border-style:ridge;
+    border-radius: 60px;
+    font-size:30px;
+    /* border-right: 1px;
+    border-left: 1px; */
+}
+
+
+
+#myProgressBar {
+    width: 80vw;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+    cursor : pointer;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 24px;
+}
+
+.songItem {
+    height: 50px;
+    width: 480px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color:dimgrey;
+    border-radius: 10px;
+    margin: 12px 0;
+
+}
+
+.songItem span {
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.songItem i {
+    cursor: pointer;
+}
+
+.timestamp {
+
+}
+
+ .songListPlay {
+    display: flex;
+    align-items: center;
+}
+
+.songListPlay i {
+    padding-left: 16px;
+}
+
+.songItemContainer {
+    margin-top: 34px;
+    display:contents; 
+
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.songInfo img {
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
